@@ -1,0 +1,72 @@
+[
+  {
+    "topic": 0,
+    "label": "bitcoin / learn / reports",
+    "terms": [
+      "bitcoin",
+      "learn",
+      "reports",
+      "bitcoin price",
+      "ethereum",
+      "mining",
+      "video",
+      "bitcoin mining"
+    ]
+  },
+  {
+    "topic": 1,
+    "label": "btc / eth / pump",
+    "terms": [
+      "btc",
+      "eth",
+      "pump",
+      "update",
+      "bullish",
+      "btc eth",
+      "time",
+      "bearish"
+    ]
+  },
+  {
+    "topic": 2,
+    "label": "crypto / market / just",
+    "terms": [
+      "crypto",
+      "market",
+      "just",
+      "people",
+      "time",
+      "like",
+      "eth",
+      "new"
+    ]
+  },
+  {
+    "topic": 3,
+    "label": "bitcoin btc / support / term",
+    "terms": [
+      "bitcoin btc",
+      "support",
+      "term",
+      "price",
+      "upside",
+      "resistance",
+      "short term",
+      "short"
+    ]
+  },
+  {
+    "topic": 4,
+    "label": "etf / bitcoin etf / spot",
+    "terms": [
+      "etf",
+      "bitcoin etf",
+      "spot",
+      "sec",
+      "spot bitcoin",
+      "grayscale",
+      "gbtc",
+      "futures"
+    ]
+  }
+]

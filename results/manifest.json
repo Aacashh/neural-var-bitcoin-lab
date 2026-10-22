@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-22T11:14:42.961331+00:00",
+  "protocol": {
+    "data_start": "1999-01-01",
+    "data_end": "2025-12-31",
+    "train_end": "2016-12-31",
+    "validation_end": "2019-12-31",
+    "test_start": "2020-01-01",
+    "test_end": "2025-12-31",
+    "lookback": 20,
+    "historical_window": 250,
+    "ewma_decay": 0.94,
+    "hidden_size": 24,
+    "epochs": 35,
+    "patience": 6,
+    "batch_size": 128,
+    "learning_rate": 0.002,
+    "seeds": [
+      7,
+      19,
+      42
+    ],
+    "quantiles": [
+      0.95,
+      0.99
+    ],
+    "weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "default_seed": 7
+  },
+  "source_sha256": "be5d0e7b1c4b613ca42097873a28dd0779c04100c6ca875f5736be1656e750c6",
+  "code_sha256": "0f74081be2c6233f497c6fe97e6eac29294690c9b9f581abe5815701703b55cc",
+  "python": "3.13.5",
+  "torch": "2.6.0+cu124",
+  "numpy": "2.1.3",
+  "splits": {
+    "train": {
+      "samples": 4279,
+      "first": "1999-12-30",
+      "last": "2016-12-30"
+    },
+    "validation": {
+      "samples": 754,
+      "first": "2017-01-03",
+      "last": "2019-12-31"
+    },
+    "test": {
+      "samples": 1508,
+      "first": "2020-01-02",
+      "last": "2025-12-31"
+    }
+  },
+  "features": [
+    "Cnsmr",
+    "Manuf",
+    "HiTec",
+    "Hlth",
+    "Other",
+    "portfolio",
+    "vol_5",
+    "vol_20",
+    "downside_20",
+    "absolute_ewma",
+    "drawdown_60"
+  ],
+  "parameters": 3602,
+  "runtime": [
+    {
+      "seed": 7,
+      "seconds": 6.527154400013387,
+      "best_epoch": 9,
+      "validation_pinball": 0.0006156561523675919
+    },
+    {
+      "seed": 19,
+      "seconds": 2.3436133000068367,
+      "best_epoch": 7,
+      "validation_pinball": 0.0006114324182271958
+    },
+    {
+      "seed": 42,
+      "seconds": 3.258497000031639,
+      "best_epoch": 12,
+      "validation_pinball": 0.0006135319173336029
+    }
+  ],
+  "total_seconds": 19.2651566999848,
+  "selection": "Epoch selected by validation pinball; seed 7 is the predeclared display default. No selection on test scores.",
+  "checksums": {
+    "forecasts.csv": "f3e00f19ebe77f73b7d9975ab496e4435da754d5bbdf37105abf9639e4fdc1eb",
+    "learning_curves.csv": "8403352242390cf350393e3ce72dba367b0a37c18d60c59926f001e559dd6e8e",
+    "lstm_seed_19.pt": "814964f65d70dc860abd6ab2139299c2e520e3b7cbb44f59ac93b9a704edc777",
+    "lstm_seed_42.pt": "e92fa239a7f477b943fb4a794041e8e6ac2fd08ae3b8ce2ab3c13310101b3756",
+    "lstm_seed_7.pt": "838951c91b8b9e12a558cf5bd1e3fd0beb031ab63c1c80156f959c02016894e0",
+    "metrics.csv": "e5d77d44c7c1e9dd5f18e0cf4a3c8e52214175c10a47d2b38872a256cf7d1fa5",
+    "scaler.json": "375de164395cd4371ef29a705f5bf86a3d9ac973087d6cbc4f91d7665c0dcac0",
+    "yearly_metrics.csv": "3107ea25686168847eddd8fb027930173d9de618aef60d97d7145dbe1f125d20"
+  }
+}

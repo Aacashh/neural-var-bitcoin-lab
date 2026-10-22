@@ -1,0 +1,3 @@
+# Preserve exact bytes: saved manifests checksum source code, data and results.
+# Automatic line-ending conversion would invalidate those identities on clone.
+* -text

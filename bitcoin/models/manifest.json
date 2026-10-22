@@ -1,0 +1,14 @@
+{
+  "model_id": "Xenova/finbert",
+  "revision": "8f269abebfdd9009d7d9b5e96af7e5c6bfe50b20",
+  "downloaded_utc": "2026-10-22T11:47:27.347245+00:00",
+  "original_model": "ProsusAI/finbert",
+  "format": "quantized ONNX; CPUExecutionProvider",
+  "checksums": {
+    "config.json": "3629c9707884176d61af8452d8779ee167169db85d81e2183afe939a88c483b8",
+    "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "tokenizer_config.json": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+    "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "onnx/model_quantized.onnx": "56cd19c7068ca5670c326816845bb7d7edda508b68a228697a1460d0e821ce76"
+  }
+}

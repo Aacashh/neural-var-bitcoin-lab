@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "all_posts_replayed": 2323,
+  "original_manifest": "bitcoin\\results_initial_transport\\manifest.json",
+  "final_code_sha256": "7c33fd9bfc83fbc5004c79d331365a645eeb3976b1559f9063664555aba4f02c",
+  "reason": "Model download restoration was improved after the first score build; numerical inference was unchanged.",
+  "audit": {
+    "status": "passed",
+    "posts": 2323,
+    "price_days": 730,
+    "probability_simplex": true,
+    "source_and_result_checksums": true,
+    "market_recomputed": true,
+    "all_neural_scores_replayed": false
+  }
+}

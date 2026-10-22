@@ -1,0 +1,21 @@
+{
+  "source": "Kenneth R. French Data Library",
+  "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/5_Industry_Portfolios_daily_CSV.zip",
+  "details": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_5_ind_port.html",
+  "retrieved_utc": "2026-10-22T11:13:13.807478+00:00",
+  "description": "First block: daily value-weighted five-industry returns, including distributions; provider percentages divided by 100.",
+  "raw_sha256": "8ede64c6df9134ab5c372a264f31640ab6737b9f942f7207f62828005542c9d3",
+  "csv_sha256": "be5d0e7b1c4b613ca42097873a28dd0779c04100c6ca875f5736be1656e750c6",
+  "rows": 6791,
+  "first_date": "1999-01-04",
+  "last_date": "2025-12-31",
+  "units": "decimal daily simple returns",
+  "columns": [
+    "Cnsmr",
+    "Manuf",
+    "HiTec",
+    "Hlth",
+    "Other"
+  ],
+  "limitation": "Retrospective research data; not a point-in-time vintage or a tradable ETF history."
+}

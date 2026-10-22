@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-22T11:35:07.229157+00:00",
+  "sources": {
+    "Twitter": "https://data.mendeley.com/datasets/8fbdhh72gs/5",
+    "Reddit": "https://zenodo.org/records/12593440",
+    "Prices": "https://zenodo.org/records/12593440"
+  },
+  "period": {
+    "start": "2021-01-01",
+    "end": "2022-12-31"
+  },
+  "price_days": 730,
+  "archive_rows": {
+    "tweets": 16512,
+    "reddit": 907
+  },
+  "retained_before_dedup": 2363,
+  "duplicate_texts_removed": 40,
+  "post_counts": {
+    "Twitter": 2065,
+    "Reddit": 258
+  },
+  "source_coverage": {
+    "Reddit": {
+      "first": "2021-01-19",
+      "last": "2022-12-19",
+      "days": 214
+    },
+    "Twitter": {
+      "first": "2021-02-01",
+      "last": "2022-12-31",
+      "days": 617
+    }
+  },
+  "raw_checksums": {
+    "BTC-USD.csv": "8cfdecd2ed3dc5e515cff0a1147eb7e59032efd6afd509cbcf172a2fa17953c0",
+    "reddit_archive_metadata.json": "9b9823b4445bc34d940ba5df13f2c9ec426459b08a592a61c12ef9c1e8c78b09",
+    "reddit_posts.csv": "a405e3d7457acb344674ab06194e24d6fb8c06bd113a73d6e093f6b94f3405ba",
+    "tweets.csv": "3cd10be6ff4d806e889093868fd511c1f60c8f6434e4257c45e4787999b51a9e",
+    "tweet_archive_metadata.json": "379ca220533659fa18b123021ef6bf894dd028363f559044dcffb8f25d97a6a8"
+  },
+  "checksums": {
+    "posts.csv": "c49c7bc81d6ff0cdef8a4a8d406eefa6f7bed6d9f560437c6b72bff9a9a8dc78",
+    "prices.csv": "1da77a0c3dd086c0a10463a2095dfc28018f8a98b8bfc234c920f69930ea3add"
+  },
+  "selection": "Explicit whole-word bitcoin/btc/bitcoins in cleaned text; fixed 2021\u20132022 window; normalized exact text deduplication within source, keep earliest date. No sentiment-based selection.",
+  "dates": "Twitter archive has calendar dates only (month/day/year). Reddit timestamps and price dates lack timezone metadata. Daily joins are research approximations, not synchronized UTC or point-in-time availability.",
+  "sample_bias": "Tweets are selected influencers; Reddit archive favors popular posts. Engagement is measured retrospectively and is not used as a forecast weight.",
+  "archive_count_note": "Zenodo description mentions 770 posts; downloaded file contains 907. Counts above use the actual frozen file.",
+  "licenses": {
+    "tweets": "CC BY 4.0; Jahanbin, Zare Chahooki and Rahmanian (2023), DOI 10.17632/8fbdhh72gs.5",
+    "reddit_and_prices": "CC BY 4.0; George Vlahavas (2024), DOI 10.5281/zenodo.12593440"
+  }
+}

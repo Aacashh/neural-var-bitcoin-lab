@@ -1,0 +1,19 @@
+{
+  "source_sha256": "be5d0e7b1c4b613ca42097873a28dd0779c04100c6ca875f5736be1656e750c6",
+  "features_sha256": "ef17aef6000f4921cb2486a51c351c38f6c5c49aaa59df3fcc40d66bad26e323",
+  "columns": [
+    "Cnsmr",
+    "Manuf",
+    "HiTec",
+    "Hlth",
+    "Other",
+    "portfolio",
+    "vol_5",
+    "vol_20",
+    "downside_20",
+    "absolute_ewma",
+    "drawdown_60"
+  ],
+  "rows": 6791,
+  "computation": "Unmodified risklab.model.features_for; causal full-history features for the saved LSTM input display."
+}

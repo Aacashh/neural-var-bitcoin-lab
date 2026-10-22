@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-22T11:51:58.409424+00:00",
+  "code_sha256": "d4d8acb678a78b65b105071273b7367ba59f155dd7e4a1819d363a869c06c992",
+  "data_checksums": {
+    "posts.csv": "c49c7bc81d6ff0cdef8a4a8d406eefa6f7bed6d9f560437c6b72bff9a9a8dc78",
+    "prices.csv": "1da77a0c3dd086c0a10463a2095dfc28018f8a98b8bfc234c920f69930ea3add"
+  },
+  "model": {
+    "model_id": "Xenova/finbert",
+    "revision": "8f269abebfdd9009d7d9b5e96af7e5c6bfe50b20",
+    "downloaded_utc": "2026-10-22T11:47:27.347245+00:00",
+    "original_model": "ProsusAI/finbert",
+    "format": "quantized ONNX; CPUExecutionProvider",
+    "checksums": {
+      "config.json": "3629c9707884176d61af8452d8779ee167169db85d81e2183afe939a88c483b8",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "onnx/model_quantized.onnx": "56cd19c7068ca5670c326816845bb7d7edda508b68a228697a1460d0e821ce76"
+    }
+  },
+  "max_tokens": 128,
+  "inference_seconds": 236.75851239997428,
+  "model_init_seconds": 2.3289202000014484,
+  "total_seconds": 239.9032456999994,
+  "posts": 2323,
+  "truncated": 166,
+  "low_confidence": 801,
+  "disagreements": 1516,
+  "topic_method": "Retrospective TF-IDF + NMF; 5 components; labels are top terms, not causal or supervised topics.",
+  "model_limits": "FinBERT is trained on financial text, not validated on this crypto social sample. VADER is a rule-based comparator, not ground truth. Softmax confidence is not calibrated correctness.",
+  "checksums": {
+    "daily_market.csv": "1f38035721302d68c36d50968ee91d14d6e4a936122595689fa9b5d4359240d1",
+    "daily_sources.csv": "f2f7834f4b9d40b76780c4a01002b8971f922dcebe5ccd153b58434fb7878a53",
+    "posts_scored.csv": "8f94469c8c6b4cf8515d44f0b49f4a52ce235f512e6bf3555d79eac9aae0964a",
+    "topics.json": "bbee93b9768d66e11985b369564077718363000c75c89b7cc462feb472786ad7"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "id": "8fbdhh72gs",
+  "doi": {
+    "id": "10.17632/8fbdhh72gs.5",
+    "status": "allocated",
+    "prefix": "10.17632"
+  },
+  "name": "Database of influencers' tweets in cryptocurrency (2021-2023).",
+  "description": "Authors, through Twitter API, collected this database over eight months. These data are tweets of over 50 experts regarding market analysis of 40 cryptocurrencies. These experts are known as influencers on social networks such as Twitter. The theory of Behavioral economics shows that the opinions of people, especially experts, can impact the stock market trend (here, cryptocurrencies). Existing databases often cover tweets related to one or more cryptocurrencies. Also, in these databases, no attention is paid to the user's expertise, and most of the data is extracted using hashtags. Failure to pay attention to the user's expertise causes the irrelevant volume to increase and the neutral polarity to increase considerably. This database has a main table named \"Tweets1\" with 11 columns and 40 tables to separate comments related to each cryptocurrency. The columns of the main table and the cryptocurrency tables are explained in the attached document. Researchers can use this dataset in various machine learning tasks, such as sentiment analysis and deep transfer learning with sentiment analysis. Also, this data can be used to check the impact of influencers' opinions on the cryptocurrency market trend. The use of this database is allowed by mentioning the source.\nAlso, in this version, we have added the excel version of the database and Python code to extract the names of influencers and tweets.\nin Version(3): In the new version, three datasets related to historical prices and sentiments related to Bitcoin, Ethereum, and Binance have been added as Excel files from January 1, 2023, to June 12, 2023. Also, two datasets of 52 influential tweets in cryptocurrencies have been published, along with the score and polarity of sentiments regarding more than 300 cryptocurrencies from February 2021 to June 2023. Also, two Python codes related to the sentiment analysis algorithm of tweets with Python have been published. This algorithm combines RoBERTa pre-trained deep neural network and BiGRU deep neural network with an attention layer (see code Preprocessing_and_sentiment_analysis with python).",
+  "version": 5,
+  "contributors": [
+    {
+      "profile_id": "d5a27366-583c-362c-ac3e-a447deeb1ae2",
+      "first_name": "kia",
+      "last_name": "jahanbin"
+    },
+    {
+      "institution": {
+        "name": "Yazd University"
+      },
+      "profile_id": "6de90822-0d12-353d-b0c5-6afa83fd8347",
+      "first_name": "Mohammad Ali",
+      "last_name": "Zare Chahooki"
+    },
+    {
+      "first_name": "Fereshte",
+      "last_name": "Rahmanian"
+    }
+  ],
+  "files": [
+    {
+      "filename": "bnb_selected_with_sentiment_2023_01_02_2023_06_12.csv",
+      "id": "7a11c143-9a6a-494a-91fb-c96ff2503a89",
+      "content_details": {
+        "id": "0ea1a093-3172-4520-9a51-12a3e77cd6fe",
+        "sha256_hash": "f4bdbff55bb36bb3b8601b1e19dfbb6d1ce89b61a1c62e5dd97877d39d14c488",
+        "content_type": "text/csv",
+        "size": 11123,
+        "created_date": "2023-07-17T16:25:44.399Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/7a11c143-9a6a-494a-91fb-c96ff2503a89/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/7a11c143-9a6a-494a-91fb-c96ff2503a89/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961128597Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 11123,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "btc_selected_with_sentiment_2023_01_02_2023_06_12.csv",
+      "id": "e0f9576a-7249-4dba-afd6-25a9737ccd16",
+      "content_details": {
+        "id": "0a526a2d-d3fd-4bf4-94a7-a2f9d1ac1773",
+        "sha256_hash": "e0aa98f9d74b9f283fb006828df22e4d78c5b61754bf71b0a05014d9c3f05574",
+        "content_type": "text/csv",
+        "size": 13203,
+        "created_date": "2023-07-17T16:25:43.234Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/e0f9576a-7249-4dba-afd6-25a9737ccd16/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/e0f9576a-7249-4dba-afd6-25a9737ccd16/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961135937Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 13203,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "Column_Description.docx",
+      "id": "6247cc62-4bcc-4b99-952e-5702a39eab19",
+      "content_details": {
+        "id": "29d134c7-7099-40b4-adec-3726b9622484",
+        "sha256_hash": "ffddc65118a4a4234e5aff0a02f9bf743b83c3f61baad782612df291b5d92ded",
+        "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "size": 14698,
+        "created_date": "2022-12-24T18:55:02.437Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/6247cc62-4bcc-4b99-952e-5702a39eab19/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/6247cc62-4bcc-4b99-952e-5702a39eab19/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961142287Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 14698,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "dataset_52-person-from-2021-02-05_2023-06-12_21-34-17-266_with_sentiment.csv",
+      "id": "159e4f05-0903-45c1-b12e-e4038805bd97",
+      "content_details": {
+        "id": "462611f8-e150-4a56-b7a8-b0f486d6afdf",
+        "sha256_hash": "3cd10be6ff4d806e889093868fd511c1f60c8f6434e4257c45e4787999b51a9e",
+        "content_type": "text/csv",
+        "size": 7299609,
+        "created_date": "2023-08-20T14:21:41.999Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/159e4f05-0903-45c1-b12e-e4038805bd97/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/159e4f05-0903-45c1-b12e-e4038805bd97/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961149007Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 7299609,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "DB_CryptoInflu.bak",
+      "id": "f6cdd8af-e1d8-43e3-9fc7-d4a78ed7b34f",
+      "content_details": {
+        "id": "e92fd6b1-28e2-46b3-8819-62078e35c519",
+        "sha256_hash": "696eed5f8bd3591781ececad66079a8196c97afb6a5e5df1a08f488dfb721ab0",
+        "content_type": "application/octet-stream",
+        "size": 120722944,
+        "created_date": "2022-12-24T18:53:43.174Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/f6cdd8af-e1d8-43e3-9fc7-d4a78ed7b34f/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/f6cdd8af-e1d8-43e3-9fc7-d4a78ed7b34f/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961156047Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 120722944,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "eth_selected_with_sentiment_2023_01_02_2023_06_12.csv",
+      "id": "6d34cf09-6d12-49df-815c-4bcf1d5d281f",
+      "content_details": {
+        "id": "aa6402fe-e2d6-49e7-a853-de58c4c62656",
+        "sha256_hash": "da0646d05c743a471309599d3606805289dabfd37538a76c10d87a8c2729d261",
+        "content_type": "text/csv",
+        "size": 12090,
+        "created_date": "2023-07-17T16:25:43.253Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/6d34cf09-6d12-49df-815c-4bcf1d5d281f/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/6d34cf09-6d12-49df-815c-4bcf1d5d281f/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961160018Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 12090,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "extract_top_INFLUENTIAL.ipynb",
+      "id": "8b23cc39-4cfb-4138-852c-7b7fd7013ee1",
+      "content_details": {
+        "id": "e1351386-0086-496b-a4df-33634cbf6d63",
+        "sha256_hash": "8d1f40180b7766f289d28742efacdb9677ebb86fce469852402cc5812a94a1a7",
+        "content_type": "application/octet-stream",
+        "size": 26553,
+        "created_date": "2023-03-26T19:45:17.555Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/8b23cc39-4cfb-4138-852c-7b7fd7013ee1/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/8b23cc39-4cfb-4138-852c-7b7fd7013ee1/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961163728Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 26553,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "Preprocessing_and_sentiment_analysis.ipynb",
+      "id": "019da1b8-f190-47be-a7e4-c9b7826fa58f",
+      "content_details": {
+        "id": "d579fa40-4c96-4562-aaab-49f4fc837606",
+        "sha256_hash": "db0a4e4a0e681cf6e7d1a4e96f3e4d44d151cfa54c9e40714f04633190972714",
+        "content_type": "application/octet-stream",
+        "size": 22155,
+        "created_date": "2023-07-18T17:10:41.949Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/019da1b8-f190-47be-a7e4-c9b7826fa58f/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/019da1b8-f190-47be-a7e4-c9b7826fa58f/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961167638Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 22155,
+      "status": "COMPLETED"
+    },
+    {
+      "filename": "tweets-data.rar",
+      "id": "bcfb3b87-19f7-4ddb-98f4-7af61462c8e8",
+      "content_details": {
+        "id": "61408258-a327-4711-80ce-83b487b6e711",
+        "sha256_hash": "98198049a92a69634c542eb3fe0e40972fe6af58415b7c132bd74f6220d52a3f",
+        "content_type": "application/octet-stream",
+        "size": 8353743,
+        "created_date": "2023-03-26T19:49:38.062Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/bcfb3b87-19f7-4ddb-98f4-7af61462c8e8/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/8fbdhh72gs/files/bcfb3b87-19f7-4ddb-98f4-7af61462c8e8/file_viewed",
+        "download_expiry_time": "2126-10-22T11:32:38.961171378Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 8353743,
+      "status": "COMPLETED"
+    }
+  ],
+  "versions": [
+    {
+      "version": 5,
+      "available": true,
+      "publish_date": "2023-08-22T03:26:10.401Z"
+    },
+    {
+      "version": 4,
+      "available": true,
+      "publish_date": "2023-07-19T19:24:10.923Z"
+    },
+    {
+      "version": 3,
+      "available": true,
+      "publish_date": "2023-07-18T07:48:38.974Z"
+    },
+    {
+      "version": 2,
+      "available": true,
+      "publish_date": "2023-03-27T13:52:38.58Z"
+    },
+    {
+      "version": 1,
+      "available": true,
+      "publish_date": "2022-12-28T20:17:16.583Z"
+    }
+  ],
+  "articles": [],
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-269952627",
+      "label": "Text Mining"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-513887344",
+      "label": "Sentiment Analysis"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-520271497",
+      "label": "Cryptocurrency"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "afcf0690-d67b-5e27-a4d6-a71d20dfe6a5",
+      "name": "Yazd University",
+      "ror_id": "https://ror.org/02x99ac45"
+    }
+  ],
+  "metrics": {
+    "views": 0,
+    "file_downloads": 0,
+    "file_previews": 0
+  },
+  "available": true,
+  "size": 136476118,
+  "owner": {
+    "profile_id": "d5a27366-583c-362c-ac3e-a447deeb1ae2",
+    "first_name": "kia",
+    "last_name": "jahanbin"
+  },
+  "channel": "WEB",
+  "owner_id": "d5a27366-583c-362c-ac3e-a447deeb1ae2",
+  "publish_date": "2023-08-22T03:26:10.401Z",
+  "data_licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International"
+  },
+  "related_links": [],
+  "funders": [],
+  "customer_id": "7377952c-6404-4428-bbfc-77242cfc301e",
+  "modified_on": "2023-08-20T14:21:41.981Z",
+  "created_on": "2022-12-24T17:49:29.375Z",
+  "confidential": false,
+  "links": {
+    "view": "https://data.mendeley.com/datasets/8fbdhh72gs"
+  },
+  "repository": {
+    "id": "MENDELEY_DATA",
+    "name": "Mendeley Data"
+  }
+}

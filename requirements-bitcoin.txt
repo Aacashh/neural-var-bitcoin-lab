@@ -1,0 +1,4 @@
+-r requirements-dashboard.txt
+onnxruntime==1.23.2
+tokenizers==0.22.1
+vaderSentiment==3.3.2
